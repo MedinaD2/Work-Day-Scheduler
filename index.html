@@ -18,21 +18,109 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Saira+Extra+Condensed:wght@300&display=swap" rel="stylesheet">     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Work Day Scheduler!</title>
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+    <!-- HEADER INFO WITH CURRENT DATE -->
+    <header class="jumbotron bg-info">
+      <h1 class="display-3 text-center">Work Day Scheduler</h1>
+      <p class="lead text-center"> "A Simpler Calendar App for Scheduling Your Work Day" </p>
+      <p id="currentDay" class="lead text-center font-weight-bold"></p>
     </header>
     <div class="container">
+
       <!-- Timeblocks go here -->
+      <div id="8" class="row time-block">
+        <div class="col-md-1 hour">
+          8:00 AM
+        </div>
+        <textarea id="0textarea" class="col-md-10 description">
+        </textarea>
+        <button id="0btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="9" class="row time-block">
+        <div class="col-md-1 hour">
+          9:00 AM
+        </div>
+        <textarea id="1textarea" class="col-md-10 description">
+        </textarea>
+        <button id="1btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="10" class="row time-block">
+        <div class="col-md-1 hour">
+          10:00 AM
+        </div>
+        <textarea id="2textarea" class="col-md-10 description">
+        </textarea>
+        <button id="2btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="11" class="row time-block">
+        <div class="col-md-1 hour">
+          11:00 AM
+        </div>
+        <textarea id="3textarea" class="col-md-10 description">
+        </textarea>
+        <button id="3btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="12" class="row time-block">
+        <div class="col-md-1 hour">
+          12:00 PM
+        </div>
+        <textarea id="4textarea" class="col-md-10 description">
+        </textarea>
+        <button id="4btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="13" class="row time-block">
+        <div class="col-md-1 hour">
+          1:00 PM
+        </div>
+        <textarea id="5textarea" class="col-md-10 description">
+        </textarea>
+        <button id="5btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="14" class="row time-block">
+        <div class="col-md-1 hour">
+          2:00 PM
+        </div>
+        <textarea id="6textarea" class="col-md-10 description">
+        </textarea>
+        <button id="6btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="15" class="row time-block">
+        <div class="col-md-1 hour">
+          3:00 PM
+        </div>
+        <textarea id="7textarea" class="col-md-10 description">
+        </textarea>
+        <button id="7btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
+
+      <div id="16" class="row time-block">
+        <div class="col-md-1 hour">
+          4:00 PM
+        </div>
+        <textarea id="8textarea" class="col-md-10 description">
+        </textarea>
+        <button id="8btn" class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+      </div>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.3/dayjs.min.js" integrity="sha512-0fcCRl828lBlrSCa8QJY51mtNqTcHxabaXVLPgw/jPA5Nutujh6CbTdDgRzl9aSPYW/uuE7c4SffFUQFBAy6lg==" crossorigin="anonymous"></script>
+    <script src="./assets/JS/index.js"></script>
   </body>
 </html>
